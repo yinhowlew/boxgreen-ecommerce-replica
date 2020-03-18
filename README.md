@@ -8,21 +8,21 @@ Copyright and credits belongs to the good folks of boxgreen pte ltd (a healthy s
 This project is a front-end only project.
 
 ### `framework and tools`
-React
-Redux
-React-router-dom
+React<br />
+Redux<br />
+React-router-dom<br />
 
 ### `concepts practised`
-Dynamic import: react.lazy/suspense
-React hooks: useState, useEffect
-React-redux hooks: useSelector, useDispatch
-localStorage
-Functional programming
+Dynamic import: react.lazy/suspense<br />
+React hooks: useState, useEffect<br />
+React-redux hooks: useSelector, useDispatch<br />
+localStorage<br />
+Functional programming<br />
 
 ### `features`
-cart
-product listing
-dynamic filter, sort, search
-product details
+cart<br />
+product listing<br />
+dynamic filter, sort, search<br />
+product details<br />
 
 ### March 2020 (in the midst of Coronavirus crisis)
