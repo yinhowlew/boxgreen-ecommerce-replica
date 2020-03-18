@@ -1,0 +1,216 @@
+.hero-container {
+	background-image: url("https://d151f3rn0x6eid.cloudfront.net/assets/index/new-banner-0-aaa8d38ea8463cbcb92bc477b75abc1a49983d84a3213d3c12ccdfdff6c61f29.jpg");
+	background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 85vh;
+    width: 100%;
+	position: relative;
+/*	z-index: -2;*/
+}
+
+.cta-container {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	float: right;
+/*	top: 20vh;*/
+	top: 0px;
+	width: 400px;
+/*	z-index: 2;*/
+	border: 1px solid;
+	border-color: rgba(0, 0, 0, 0.1);
+	margin: 50px 50px;
+	height: auto;
+	width: auto;
+	background-color: white;
+	padding: 20px 20px;
+	align-items: center;
+}
+
+.cta-container img {
+	width: 90%;
+}
+
+.cta-text-container {
+	display: flex;
+	flex-direction: row;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	color: gray;
+}
+
+.cta-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.cta-text p {
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 20px;
+	text-align: left;
+}
+
+.btn-lg {
+	padding: 10px 16px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 18px;
+	line-height: 1.33;
+	border-radius: 6px;
+	border: none;
+	color: #fff;
+    background-color: #4cbc94;	
+}
+
+.btn-lg:hover {
+	color: #4cbc94;
+    background-color: #fff;
+}
+
+.how-it-works-container {
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+/*    align-content: center;*/
+    margin: auto;	
+}
+.how-it-works-container h3 {
+	color: #4CBC94;
+	font-family: 'Cute Font', cursive;
+/*	font-weight: 900;*/
+	font-size: 75px;	
+}
+.how-it-works-steps {
+    display: flex;
+    flex-direction: row;
+/*    margin: auto;	*/
+}
+.each-how-it-works-step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+/*    margin: auto;	*/
+    width: 270px;
+    margin: 20px;	    	
+}
+.each-how-it-works-step img {
+	width: 180px;
+	transition: transform 2s;
+}
+.each-how-it-works-step img:hover {
+/*	width: 240px;*/
+	transform: scale(1.2);
+}
+
+.special-p-tag {
+	color: #4CBC94;
+	font-family: 'Cute Font', cursive;
+/*	font-weight: 900;*/
+	font-size: 36px;
+	margin: 0px;		
+}
+
+
+
+.banner-2 {
+	background-image: url("https://d151f3rn0x6eid.cloudfront.net/assets/index/new-banner-1-f5dcd01a155e8ef2fe2f60172577d75385e152cfc18cbb1d127a3d15d6538931.jpg");
+	background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 85vh;
+    width: 100%;
+	position: relative;
+	align-content: center;
+/*	z-index: -2;*/
+}
+
+.banner-overlay {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+.banner-overlay h4 {
+	line-height: 2em;
+}
+
+.banner-3 {
+	background-image: url("https://d151f3rn0x6eid.cloudfront.net/assets/index/new-banner-2-0137cb8fff7834d8df8a9515ab53c765c3f436a55f0b81e957544e98c66bad86.jpg");
+	background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 85vh;
+    width: 100%;
+	position: relative;
+	align-content: center;
+/*	z-index: -2;*/
+}
+
+.banner-4 {
+	background-image: url("https://d151f3rn0x6eid.cloudfront.net/assets/index/new-banner-3-9d35e4a8019505bb3133499ff1505ec7e575f41e4116692929aea736eb40d109.jpg");
+	background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 85vh;
+    width: 100%;
+	position: relative;
+	align-content: center;
+/*	z-index: -2;*/
+}
+.banner-4-mini-container {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0px auto;
+}
+.banner-overlay-4 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+/*	border: 1px solid;*/
+	background-color: rgba(255,255,255,0.8);
+	width: 450px;
+	height: 400px;
+	padding: 30px 70px;
+}
+.banner-overlay-4 h4 {
+	line-height: 1.5rem;
+}
+
+@media only screen and (max-width: 768px) {
+	.cta-container {
+/*		display: none;*/
+	}
+	.banner-overlay-4 {
+		width: 300px;
+		height: 270px;
+		padding: 10px 10px;
+	}
+	.banner-overlay-4 img {
+		width: 270px;
+	}
+	.banner-overlay-4 h4 {
+		line-height: 1.5rem;
+		font-size: 18px;
+	}
+	.how-it-works-container {
+		height: auto;
+	}
+	.how-it-works-steps {
+		flex-direction: column;
+	}
+}
+
+
+
+

@@ -1,0 +1,124 @@
+.footer-container {
+	width: 100%;
+	margin: auto;
+	margin-top: 60px;
+	border-top: 1px solid;
+	border-color: rgba(0, 0, 0, 0.2);
+}
+
+.newsletter-section {
+	display: flex;
+	flex-direction: column;
+/*	margin: auto;*/
+	align-items: center;
+	margin: 20px;
+}
+.newsletter-section h2 {
+	color: #4CBC94;
+	font-family: 'Cute Font', cursive;
+	font-weight: 900;
+	font-size: 48px;
+}
+
+.subscribe-container {
+	display: flex;
+	align-items: center;
+	border: 1px solid;
+	border-color: rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+	padding: 0px 5px 0px 5px;
+}
+.subscribe-input {
+	display: flex;
+	border: transparent;
+/*	width: 150px;*/
+}
+
+
+.footer-link-section {
+	display: flex;
+	flex-direction: row;
+/*	align-items: center;*/
+	justify-content: space-around;
+	width: 60%;
+	margin: auto;
+}
+.footer-link-section h2 {
+	color: #4CBC94;
+	font-family: 'Cute Font', cursive;
+	font-weight: 900;
+	font-size: 36px;
+}
+.each-footer-link-list {
+	display: flex;
+	flex-direction: column;
+/*	justify-content: flex-start;	*/
+	align-items: flex-start;		
+}
+.each-footer-link-list ul {
+	display: flex;
+	flex-direction: column;	
+/*	justify-content: flex-start;*/
+	align-items: flex-start;	
+}
+.each-footer-link-list li {
+	margin-top: 10px;
+}
+.social-media-icons img {
+	width: 40px;
+	padding: 5px;
+}
+.cert-icon-1 {
+	width: 60px;
+}
+.cert-icon-2 {
+	width: 80px;
+}
+
+
+.disclaimer-section {
+	display: flex;
+	flex-direction: column;
+/*	align-items: flex-start;*/
+	text-align: left;
+	align-items: center;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+/*	width: 80%;*/
+}
+.disclaimer-wrap {
+	width: 800px;
+}
+
+.mobile-footer-link-section {
+	width: 80%;
+	margin: auto;
+	display: none;
+}
+.mobile-social-media-section img {
+	width: 40px;
+	padding: 5px;
+}
+.mobile-footer-link-list {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 1050px) {
+	.footer-link-section{
+		display: none;
+	}
+	.mobile-footer-link-section {
+		display: block;
+	}
+	.disclaimer-wrap {
+		width: 80%;
+	}
+
+}
+

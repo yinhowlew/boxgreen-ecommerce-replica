@@ -1,0 +1,206 @@
+a {
+	color: inherit;
+}
+ 
+a:hover {
+	text-decoration: none;
+	color: inherit;
+}
+ 
+.nav-bar {
+	position: sticky;
+    top: 0;
+	width: 100%;
+	z-index: 3;
+	border-bottom: 1px solid;
+	border-color: rgba(0, 0, 0, 0.1);
+}
+
+.nav-bar-1-bg {
+	background-color: #4CBC94;
+	width: 100%;
+}
+
+.nav-bar-1 {
+	background-color: #4CBC94;
+	color: white;
+	display: flex;
+	height: 45px;
+	width: 80%;
+	justify-content: space-between;
+	margin: auto;
+}
+
+.tab-switcher {
+	display: flex;
+	margin-top: 5px;
+/*	margin: 5px 20px 0px 100px;*/	
+}
+
+.login-buttons {
+	display: flex;
+	float: right;
+	margin-top: 5px;
+/*	margin: 5px 100px 0px auto;*/
+/*	font-weight: 2000;*/
+}
+
+.tab {
+/*	margin: 20px 20px;*/
+	padding: 10px 10px;
+	font-size: 1rem;
+	font-weight: 900;
+}
+
+.tab-selected {
+	color: #4CBC94;
+	background: white;
+/*    padding: 10px;*/
+/*    margin-top: 5px;*/
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;	
+}
+
+.nav-bar-2-bg {
+	background-color: white;
+	width: 100%;
+}
+
+.nav-bar-2 {
+	display: flex;
+	width: 80%;
+	background-color: white;
+	padding: 5px 0;
+	justify-content: space-between;
+	margin: auto;
+}
+
+.nav-bar-2-left {
+	display: flex;
+}
+
+.nav-bar-2 img {
+	width: 120px;
+	height: 40px;
+	margin-left: 0px;
+	margin-right: 20px;
+	padding-top: 5px;
+}
+
+
+ul {
+/*	background-color: white;*/
+	list-style-type: none;
+	margin: 0px 0px;
+    padding: 0;
+    display: flex;
+	top: 0;
+/*    width: 100%;*/
+/*    height: auto;*/
+}
+
+li {
+	text-align: center;
+/*	width: 130px;*/
+}
+.nav-bar-2 li {
+/*	display: inline-block;*/
+/*	text-align: center;
+	padding: 14px 30px;
+/*	height: 40px;*/
+/*	width: 130px;*/
+	color: #4CBC94;
+}
+
+.nav-bar-2 li a {
+	text-decoration: none;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	padding: 18px 30px;
+/*	height: 40px;*/
+	color: #4CBC94;
+}
+
+.nav-bar-2 li a:hover {
+    background-color: #edf5f2;
+}
+
+.opened-menu-container {
+	display: none;
+	flex-direction: column;
+	position: absolute;
+	z-index: 3000;
+	top: 80%;
+	margin-left: 15px;
+}
+.caret-edit {
+	line-height: 0.4;
+	margin-right: 50px;
+}
+.opened-menu {
+	display: block;
+	margin-top: 0px;
+	background: white;
+	border: 1px solid;
+	border-color: rgba(0, 0, 0, 0.1);	
+}
+.opened-menu div {
+	text-decoration: none;
+	display: flex;
+/*	text-align: left;*/
+	justify-content: flex-start;
+	padding: 14px 30px;
+	color: #4CBC94;
+}
+.opened-menu div:hover {
+    background-color: #edf5f2;
+}
+
+
+.btn-cart {
+	display: flex;
+/*	*/
+	align-self: right;
+/*	width: auto;*/
+	padding: 0.4rem;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	line-height: 1.33;
+	border-radius: 6px;
+	border: none;
+/*	font-size: 3rem;
+*/	color: #fff;
+    background-color: #4cbc94;	
+}
+
+.btn-cart:hover {
+	color: #4cbc94;
+    background-color: #fff;
+}
+
+.btn-cart p {
+	font-size: 1rem;
+	margin: 4px;
+}
+
+.fa-style {
+	font-size: 0.9rem;
+	margin: 4px;
+	margin-top: 6px;
+}
+
+
+@media only screen and (max-width: 768px) {
+	.nav-bar-2-left ul {
+		display: none;
+	}
+}
+
+/*#background{
+    background-image: url('https://npatel023.github.io/RestaurantWebsite/img/main.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}*/

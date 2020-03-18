@@ -1,0 +1,41 @@
+.shop-hero-banner {
+	background-image: url("/images/banner-1.jpg");
+	background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 45vh;
+    width: 100%;
+/*	position: relative;*/
+/*	z-index: 20000;*/
+}
+
+
+.shop-container {
+/*	margin: 5px 0px;*/
+	width: 80%;
+	margin: auto;
+/*	position: relative;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+	align-self: center;*/
+}
+
+.shop-container-2 {
+	display: flex;
+	flex-direction: row;
+}
+
+
+@media only screen and (max-width: 600px) {
+	.shop-hero-banner {
+		background-image: url("/images/banner-1-mobile.jpg");
+		height: 40vh;
+	}
+	.shop-container {
+	}
+	.shop-container-2 {
+		display: flex;
+		flex-direction: column;
+	}
+}
