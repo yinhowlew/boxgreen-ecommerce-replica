@@ -113,6 +113,7 @@ const NavBar = () => {
 						<p>{`($${totalPrice.toFixed(2)})`}</p>	
 					</Link>			
 				</div>
+				
 			</div>
 		</header>	
 	);
