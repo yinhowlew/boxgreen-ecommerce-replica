@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "863fc9e8fbab633d1ae1bfd413adaf52",
+    "revision": "603d3b6e3941625481929b7b45c849ac",
     "url": "/boxgreen-ecommerce-replica/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/boxgreen-ecommerce-replica/static/css/2.385c8688.chunk.css"
   },
   {
-    "revision": "955a07d12553890c684b",
-    "url": "/boxgreen-ecommerce-replica/static/css/3.7451cc6a.chunk.css"
+    "revision": "93bdff7097d49d0b6cff",
+    "url": "/boxgreen-ecommerce-replica/static/css/3.04e2b9da.chunk.css"
   },
   {
     "revision": "df1069951fe1fd21a0bd",
@@ -32,7 +32,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/boxgreen-ecommerce-replica/static/css/8.2ce3e9ed.chunk.css"
   },
   {
-    "revision": "04836944bf24d84638ff",
+    "revision": "b1cb2c830d196c8806be",
     "url": "/boxgreen-ecommerce-replica/static/css/main.d60374fd.chunk.css"
   },
   {
@@ -44,7 +44,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/boxgreen-ecommerce-replica/static/js/2.50bc3a83.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "955a07d12553890c684b",
+    "revision": "93bdff7097d49d0b6cff",
     "url": "/boxgreen-ecommerce-replica/static/js/3.268a0dc3.chunk.js"
   },
   {
@@ -68,12 +68,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/boxgreen-ecommerce-replica/static/js/8.6dddcd44.chunk.js"
   },
   {
-    "revision": "04836944bf24d84638ff",
-    "url": "/boxgreen-ecommerce-replica/static/js/main.28c1cd6c.chunk.js"
+    "revision": "b1cb2c830d196c8806be",
+    "url": "/boxgreen-ecommerce-replica/static/js/main.fe7dea96.chunk.js"
   },
   {
-    "revision": "721487bb48433ac74545",
-    "url": "/boxgreen-ecommerce-replica/static/js/runtime-main.974b75cc.js"
+    "revision": "1c6c56015aea1322d0ca",
+    "url": "/boxgreen-ecommerce-replica/static/js/runtime-main.8ead7cb2.js"
   },
   {
     "revision": "19a95730914b90cf523c0439bc5aa0e7",

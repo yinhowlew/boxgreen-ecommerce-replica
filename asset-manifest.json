@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/boxgreen-ecommerce-replica/static/css/main.d60374fd.chunk.css",
-    "main.js": "/boxgreen-ecommerce-replica/static/js/main.28c1cd6c.chunk.js",
-    "main.js.map": "/boxgreen-ecommerce-replica/static/js/main.28c1cd6c.chunk.js.map",
-    "runtime-main.js": "/boxgreen-ecommerce-replica/static/js/runtime-main.974b75cc.js",
-    "runtime-main.js.map": "/boxgreen-ecommerce-replica/static/js/runtime-main.974b75cc.js.map",
+    "main.js": "/boxgreen-ecommerce-replica/static/js/main.fe7dea96.chunk.js",
+    "main.js.map": "/boxgreen-ecommerce-replica/static/js/main.fe7dea96.chunk.js.map",
+    "runtime-main.js": "/boxgreen-ecommerce-replica/static/js/runtime-main.8ead7cb2.js",
+    "runtime-main.js.map": "/boxgreen-ecommerce-replica/static/js/runtime-main.8ead7cb2.js.map",
     "static/css/2.385c8688.chunk.css": "/boxgreen-ecommerce-replica/static/css/2.385c8688.chunk.css",
     "static/js/2.50bc3a83.chunk.js": "/boxgreen-ecommerce-replica/static/js/2.50bc3a83.chunk.js",
     "static/js/2.50bc3a83.chunk.js.map": "/boxgreen-ecommerce-replica/static/js/2.50bc3a83.chunk.js.map",
-    "static/css/3.7451cc6a.chunk.css": "/boxgreen-ecommerce-replica/static/css/3.7451cc6a.chunk.css",
+    "static/css/3.04e2b9da.chunk.css": "/boxgreen-ecommerce-replica/static/css/3.04e2b9da.chunk.css",
     "static/js/3.268a0dc3.chunk.js": "/boxgreen-ecommerce-replica/static/js/3.268a0dc3.chunk.js",
     "static/js/3.268a0dc3.chunk.js.map": "/boxgreen-ecommerce-replica/static/js/3.268a0dc3.chunk.js.map",
     "static/css/4.3c015c7f.chunk.css": "/boxgreen-ecommerce-replica/static/css/4.3c015c7f.chunk.css",
@@ -27,10 +27,10 @@
     "static/js/8.6dddcd44.chunk.js": "/boxgreen-ecommerce-replica/static/js/8.6dddcd44.chunk.js",
     "static/js/8.6dddcd44.chunk.js.map": "/boxgreen-ecommerce-replica/static/js/8.6dddcd44.chunk.js.map",
     "index.html": "/boxgreen-ecommerce-replica/index.html",
-    "precache-manifest.4d515944171b597a4117dfebaa05ed2f.js": "/boxgreen-ecommerce-replica/precache-manifest.4d515944171b597a4117dfebaa05ed2f.js",
+    "precache-manifest.1f6757df78e70f0a51c9291e82fac855.js": "/boxgreen-ecommerce-replica/precache-manifest.1f6757df78e70f0a51c9291e82fac855.js",
     "service-worker.js": "/boxgreen-ecommerce-replica/service-worker.js",
     "static/css/2.385c8688.chunk.css.map": "/boxgreen-ecommerce-replica/static/css/2.385c8688.chunk.css.map",
-    "static/css/3.7451cc6a.chunk.css.map": "/boxgreen-ecommerce-replica/static/css/3.7451cc6a.chunk.css.map",
+    "static/css/3.04e2b9da.chunk.css.map": "/boxgreen-ecommerce-replica/static/css/3.04e2b9da.chunk.css.map",
     "static/css/4.3c015c7f.chunk.css.map": "/boxgreen-ecommerce-replica/static/css/4.3c015c7f.chunk.css.map",
     "static/css/5.6ecf7bb5.chunk.css.map": "/boxgreen-ecommerce-replica/static/css/5.6ecf7bb5.chunk.css.map",
     "static/css/6.bc16d36f.chunk.css.map": "/boxgreen-ecommerce-replica/static/css/6.bc16d36f.chunk.css.map",
@@ -41,10 +41,10 @@
     "static/media/gotham-rounded.css": "/boxgreen-ecommerce-replica/static/media/VarelaRound.f7ffa6a4.eot"
   },
   "entrypoints": [
-    "static/js/runtime-main.974b75cc.js",
+    "static/js/runtime-main.8ead7cb2.js",
     "static/css/2.385c8688.chunk.css",
     "static/js/2.50bc3a83.chunk.js",
     "static/css/main.d60374fd.chunk.css",
-    "static/js/main.28c1cd6c.chunk.js"
+    "static/js/main.fe7dea96.chunk.js"
   ]
 }
