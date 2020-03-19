@@ -162,7 +162,8 @@ or, margin: auto
 44)  unique problem after deploying to github pages, since the base url of the app is not the root.
 this is fixed by:
 - BrowserRouter basename={process.env.PUBLIC_URL}
-- fixed all images and href url to have process.env.PUBLIC_URL/ in front
+- fixed all images to have process.env.PUBLIC_URL/ in front
+- all <a> tag changed to <Link>
 */  
 
 /*  INSTALLED

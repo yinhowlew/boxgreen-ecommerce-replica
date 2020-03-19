@@ -98,7 +98,7 @@ const NavBar = () => {
 							<li>
 								<Link 
 								to="/shop" exact="true"
-								onClick={() => setHomeTabIsActive(true)}
+								onClick={() => setHomeTabIsActive(false)}
 								>Treat Yourself</Link>
 							</li>														
 						</ul>

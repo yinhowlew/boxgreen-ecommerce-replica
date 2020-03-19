@@ -1,6 +1,7 @@
 import React from 'react';
 import './cartpage.css';
 import { useSelector, useDispatch } from 'react-redux';
+import { Link } from 'react-router-dom';
 import allActions from '../../actions';
 
  
@@ -27,7 +28,7 @@ const CartPage = () => {
 					src={`${process.env.PUBLIC_URL}/images/empty-cart.png`}
 					/ >
 					<p>oops, your cart is empty</p>
-	     			<a className="btn btn-primary btn-lg" href={`${process.env.PUBLIC_URL}/shop`}>start adding snacks</a>
+	     			<Link className="btn btn-primary btn-lg" to="/shop">start adding snacks</Link>
 				</div> 
 				:
 				<div className="full-cart-container">
@@ -75,9 +76,9 @@ const CartPage = () => {
 					{`total $${totalPrice.toFixed(2)}`}
 				</div>
 				<hr />
-				<div className="cart-buttons-section">
-					<a className="btn btn-primary btn-checkout" href={`${process.env.PUBLIC_URL}/shop`}>subscriber login</a>	
-					<a className="btn btn-primary btn-checkout btn-checkout-2" href={`${process.env.PUBLIC_URL}/shop`}>checkout as guest</a>
+				<div className="cart-buttons-section">	
+					<Link className="btn btn-primary btn-checkout" to="/shop">subscriber login</Link>
+					<Link className="btn btn-primary btn-checkout btn-checkout-2" to="/shop">checkout as guest</Link>
 				</div>
 				<p className="free-shipping"> free shipping if you spend $30 and above!</p>	
 				<div className="coupon-container">

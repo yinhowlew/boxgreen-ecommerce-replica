@@ -1,5 +1,6 @@
 import React from 'react';
 import './landingpage.css';
+import { Link } from 'react-router-dom';
 
 
 const LandingPage = () => {
@@ -18,7 +19,7 @@ const LandingPage = () => {
 		     				<p>enter it here</p>
 		     			</div>
 	     			</div>
-	     			<a className="btn btn-primary btn-lg" href={`${process.env.PUBLIC_URL}/shop`}>start adding snacks</a>
+	     			<Link className="btn btn-primary btn-lg" to="/shop">start adding snacks</Link>
 	     			<div>by continuing, you agree to our terms and privacy policy.
 	     			</div>     			
 	     	 	</div>  	
@@ -57,7 +58,7 @@ const LandingPage = () => {
 						<br />
 						needs covered
 					</h4>
-					<a className="btn btn-primary btn-lg" href={`${process.env.PUBLIC_URL}/shop`}>start adding snacks</a>
+					<Link className="btn btn-primary btn-lg" to="/shop">start adding snacks</Link>
 				</div>
 			</div>
 
@@ -73,7 +74,7 @@ const LandingPage = () => {
 						<h4>
 							for every box sold, a portion of the proceeds will go to help provide meals for the less privileged
 						</h4>
-						<a className="btn btn-primary btn-lg" href={`${process.env.PUBLIC_URL}/shop`}>start adding snacks</a>
+						<Link className="btn btn-primary btn-lg" to="/shop">start adding snacks</Link>
 					</div>
 				</div>	
 			</div>					
