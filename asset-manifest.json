@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/boxgreen-ecommerce-replica/static/css/main.392b3c26.chunk.css",
-    "main.js": "/boxgreen-ecommerce-replica/static/js/main.09e50f96.chunk.js",
-    "main.js.map": "/boxgreen-ecommerce-replica/static/js/main.09e50f96.chunk.js.map",
-    "runtime-main.js": "/boxgreen-ecommerce-replica/static/js/runtime-main.0f490a99.js",
-    "runtime-main.js.map": "/boxgreen-ecommerce-replica/static/js/runtime-main.0f490a99.js.map",
+    "main.js": "/boxgreen-ecommerce-replica/static/js/main.8972e991.chunk.js",
+    "main.js.map": "/boxgreen-ecommerce-replica/static/js/main.8972e991.chunk.js.map",
+    "runtime-main.js": "/boxgreen-ecommerce-replica/static/js/runtime-main.81cb4be7.js",
+    "runtime-main.js.map": "/boxgreen-ecommerce-replica/static/js/runtime-main.81cb4be7.js.map",
     "static/css/2.385c8688.chunk.css": "/boxgreen-ecommerce-replica/static/css/2.385c8688.chunk.css",
     "static/js/2.2c5fc916.chunk.js": "/boxgreen-ecommerce-replica/static/js/2.2c5fc916.chunk.js",
     "static/js/2.2c5fc916.chunk.js.map": "/boxgreen-ecommerce-replica/static/js/2.2c5fc916.chunk.js.map",
@@ -15,19 +15,19 @@
     "static/js/4.e38260de.chunk.js": "/boxgreen-ecommerce-replica/static/js/4.e38260de.chunk.js",
     "static/js/4.e38260de.chunk.js.map": "/boxgreen-ecommerce-replica/static/js/4.e38260de.chunk.js.map",
     "static/css/5.6ecf7bb5.chunk.css": "/boxgreen-ecommerce-replica/static/css/5.6ecf7bb5.chunk.css",
-    "static/js/5.0c9140d9.chunk.js": "/boxgreen-ecommerce-replica/static/js/5.0c9140d9.chunk.js",
-    "static/js/5.0c9140d9.chunk.js.map": "/boxgreen-ecommerce-replica/static/js/5.0c9140d9.chunk.js.map",
+    "static/js/5.5704c4da.chunk.js": "/boxgreen-ecommerce-replica/static/js/5.5704c4da.chunk.js",
+    "static/js/5.5704c4da.chunk.js.map": "/boxgreen-ecommerce-replica/static/js/5.5704c4da.chunk.js.map",
     "static/css/6.bc16d36f.chunk.css": "/boxgreen-ecommerce-replica/static/css/6.bc16d36f.chunk.css",
     "static/js/6.41081e8a.chunk.js": "/boxgreen-ecommerce-replica/static/js/6.41081e8a.chunk.js",
     "static/js/6.41081e8a.chunk.js.map": "/boxgreen-ecommerce-replica/static/js/6.41081e8a.chunk.js.map",
     "static/css/7.f00caf4a.chunk.css": "/boxgreen-ecommerce-replica/static/css/7.f00caf4a.chunk.css",
-    "static/js/7.b3a64d71.chunk.js": "/boxgreen-ecommerce-replica/static/js/7.b3a64d71.chunk.js",
-    "static/js/7.b3a64d71.chunk.js.map": "/boxgreen-ecommerce-replica/static/js/7.b3a64d71.chunk.js.map",
+    "static/js/7.c7df24c2.chunk.js": "/boxgreen-ecommerce-replica/static/js/7.c7df24c2.chunk.js",
+    "static/js/7.c7df24c2.chunk.js.map": "/boxgreen-ecommerce-replica/static/js/7.c7df24c2.chunk.js.map",
     "static/css/8.2ce3e9ed.chunk.css": "/boxgreen-ecommerce-replica/static/css/8.2ce3e9ed.chunk.css",
     "static/js/8.2ac4b076.chunk.js": "/boxgreen-ecommerce-replica/static/js/8.2ac4b076.chunk.js",
     "static/js/8.2ac4b076.chunk.js.map": "/boxgreen-ecommerce-replica/static/js/8.2ac4b076.chunk.js.map",
     "index.html": "/boxgreen-ecommerce-replica/index.html",
-    "precache-manifest.29f23fb247fc4851b6f4fd9e9d71e90c.js": "/boxgreen-ecommerce-replica/precache-manifest.29f23fb247fc4851b6f4fd9e9d71e90c.js",
+    "precache-manifest.f58db42aae549c5a73b9144da01d8a73.js": "/boxgreen-ecommerce-replica/precache-manifest.f58db42aae549c5a73b9144da01d8a73.js",
     "service-worker.js": "/boxgreen-ecommerce-replica/service-worker.js",
     "static/css/2.385c8688.chunk.css.map": "/boxgreen-ecommerce-replica/static/css/2.385c8688.chunk.css.map",
     "static/css/3.d064fdb6.chunk.css.map": "/boxgreen-ecommerce-replica/static/css/3.d064fdb6.chunk.css.map",
@@ -41,10 +41,10 @@
     "static/media/gotham-rounded.css": "/boxgreen-ecommerce-replica/static/media/VarelaRound.f7ffa6a4.eot"
   },
   "entrypoints": [
-    "static/js/runtime-main.0f490a99.js",
+    "static/js/runtime-main.81cb4be7.js",
     "static/css/2.385c8688.chunk.css",
     "static/js/2.2c5fc916.chunk.js",
     "static/css/main.392b3c26.chunk.css",
-    "static/js/main.09e50f96.chunk.js"
+    "static/js/main.8972e991.chunk.js"
   ]
 }
