@@ -1,79 +1,79 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "603d3b6e3941625481929b7b45c849ac",
+    "revision": "76abc2812acaeb98c3e59821a748ec2d",
     "url": "/boxgreen-ecommerce-replica/index.html"
   },
   {
-    "revision": "0f5eb670e8913f27f81d",
+    "revision": "2277b466253d303bca59",
     "url": "/boxgreen-ecommerce-replica/static/css/2.385c8688.chunk.css"
   },
   {
-    "revision": "93bdff7097d49d0b6cff",
-    "url": "/boxgreen-ecommerce-replica/static/css/3.04e2b9da.chunk.css"
+    "revision": "87a9350de5ad8ec6bd1f",
+    "url": "/boxgreen-ecommerce-replica/static/css/3.d064fdb6.chunk.css"
   },
   {
-    "revision": "df1069951fe1fd21a0bd",
+    "revision": "5fd89c659c2599a788b2",
     "url": "/boxgreen-ecommerce-replica/static/css/4.3c015c7f.chunk.css"
   },
   {
-    "revision": "1e718e072f86d36d22a8",
+    "revision": "af2b17a993254e1a2031",
     "url": "/boxgreen-ecommerce-replica/static/css/5.6ecf7bb5.chunk.css"
   },
   {
-    "revision": "38bc67d7a32e839a79f9",
+    "revision": "e7aa29e09add06db5bb8",
     "url": "/boxgreen-ecommerce-replica/static/css/6.bc16d36f.chunk.css"
   },
   {
-    "revision": "aa882d395d746ae75cbc",
+    "revision": "281249410bacc19a3dfa",
     "url": "/boxgreen-ecommerce-replica/static/css/7.f00caf4a.chunk.css"
   },
   {
-    "revision": "7ba71276c376b29d85be",
+    "revision": "80bc19a20d26e4062d61",
     "url": "/boxgreen-ecommerce-replica/static/css/8.2ce3e9ed.chunk.css"
   },
   {
-    "revision": "b1cb2c830d196c8806be",
-    "url": "/boxgreen-ecommerce-replica/static/css/main.d60374fd.chunk.css"
+    "revision": "63a9b8e64aeee9297672",
+    "url": "/boxgreen-ecommerce-replica/static/css/main.392b3c26.chunk.css"
   },
   {
-    "revision": "0f5eb670e8913f27f81d",
-    "url": "/boxgreen-ecommerce-replica/static/js/2.50bc3a83.chunk.js"
+    "revision": "2277b466253d303bca59",
+    "url": "/boxgreen-ecommerce-replica/static/js/2.2c5fc916.chunk.js"
   },
   {
     "revision": "f231859d6585c4cd5f80c344783ed269",
-    "url": "/boxgreen-ecommerce-replica/static/js/2.50bc3a83.chunk.js.LICENSE.txt"
+    "url": "/boxgreen-ecommerce-replica/static/js/2.2c5fc916.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "93bdff7097d49d0b6cff",
-    "url": "/boxgreen-ecommerce-replica/static/js/3.268a0dc3.chunk.js"
+    "revision": "87a9350de5ad8ec6bd1f",
+    "url": "/boxgreen-ecommerce-replica/static/js/3.de78dfab.chunk.js"
   },
   {
-    "revision": "df1069951fe1fd21a0bd",
-    "url": "/boxgreen-ecommerce-replica/static/js/4.b8d2f331.chunk.js"
+    "revision": "5fd89c659c2599a788b2",
+    "url": "/boxgreen-ecommerce-replica/static/js/4.e38260de.chunk.js"
   },
   {
-    "revision": "1e718e072f86d36d22a8",
-    "url": "/boxgreen-ecommerce-replica/static/js/5.fa456273.chunk.js"
+    "revision": "af2b17a993254e1a2031",
+    "url": "/boxgreen-ecommerce-replica/static/js/5.0c9140d9.chunk.js"
   },
   {
-    "revision": "38bc67d7a32e839a79f9",
-    "url": "/boxgreen-ecommerce-replica/static/js/6.b51ecd07.chunk.js"
+    "revision": "e7aa29e09add06db5bb8",
+    "url": "/boxgreen-ecommerce-replica/static/js/6.41081e8a.chunk.js"
   },
   {
-    "revision": "aa882d395d746ae75cbc",
-    "url": "/boxgreen-ecommerce-replica/static/js/7.a771d169.chunk.js"
+    "revision": "281249410bacc19a3dfa",
+    "url": "/boxgreen-ecommerce-replica/static/js/7.b3a64d71.chunk.js"
   },
   {
-    "revision": "7ba71276c376b29d85be",
-    "url": "/boxgreen-ecommerce-replica/static/js/8.6dddcd44.chunk.js"
+    "revision": "80bc19a20d26e4062d61",
+    "url": "/boxgreen-ecommerce-replica/static/js/8.2ac4b076.chunk.js"
   },
   {
-    "revision": "b1cb2c830d196c8806be",
-    "url": "/boxgreen-ecommerce-replica/static/js/main.fe7dea96.chunk.js"
+    "revision": "63a9b8e64aeee9297672",
+    "url": "/boxgreen-ecommerce-replica/static/js/main.09e50f96.chunk.js"
   },
   {
-    "revision": "1c6c56015aea1322d0ca",
-    "url": "/boxgreen-ecommerce-replica/static/js/runtime-main.8ead7cb2.js"
+    "revision": "776cf0f7dc09b985a0c0",
+    "url": "/boxgreen-ecommerce-replica/static/js/runtime-main.0f490a99.js"
   },
   {
     "revision": "19a95730914b90cf523c0439bc5aa0e7",
