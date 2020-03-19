@@ -89,6 +89,9 @@
 .how-it-works-steps {
     display: flex;
     flex-direction: row;
+/*    align-items: center;*/
+    justify-content: center;
+    width: 100%;
 /*    margin: auto;	*/
 }
 .each-how-it-works-step {
@@ -191,6 +194,9 @@
 	.cta-container {
 /*		display: none;*/
 	}
+	.banner-2 img {
+		width: 400px;
+	}
 	.banner-overlay-4 {
 		width: 300px;
 		height: 270px;
@@ -205,9 +211,12 @@
 	}
 	.how-it-works-container {
 		height: auto;
+		width: 100%;
 	}
 	.how-it-works-steps {
 		flex-direction: column;
+		width: 100%;
+		align-items: center;
 	}
 }
 
