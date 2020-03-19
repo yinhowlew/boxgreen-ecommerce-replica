@@ -159,6 +159,10 @@ or, margin: auto
 41)  added errorpage for all routes with no destination;  and added errorpage in ProductDetail if product is undefined
 42)  Textual form controls—like <input>s, <select>s, and <textarea>s—are styled with the .form-control class of Bootstrap. 
 43)  code splitting: lazy/suspense
+44)  unique problem after deploying to github pages, since the base url of the app is not the root.
+this is fixed by:
+- BrowserRouter basename={process.env.PUBLIC_URL}
+- fixed all images and href url to have process.env.PUBLIC_URL/ in front
 */  
 
 /*  INSTALLED

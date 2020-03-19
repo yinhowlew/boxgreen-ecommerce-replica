@@ -67,7 +67,7 @@ const NavBar = () => {
 						<Link 
 								to="/" exact="true" 
 								onClick={() => setHomeTabIsActive(true)}
-						><img alt="logo" src="https://d151f3rn0x6eid.cloudfront.net/assets/index/header-logo-clean-ceaed7dd8fa69985c9aa9416c9e21d31b0d6397c510af2cbbaf3576f37f52921.png" />
+						><img alt="logo" src={`${process.env.PUBLIC_URL}/images/logo.png`} />
 						</Link>	
 						<ul>
 							<li>
@@ -80,11 +80,11 @@ const NavBar = () => {
 									<div className="opened-menu-container">
 										<i className="fas fa-caret-up caret-edit"></i>
 										<div className="opened-menu">
-											<div href="#Appetizers">Appetizers</div>
-					                		<div href="#Entrees">Entrees</div>
-					               			<div href="#Breads">Breads</div>
-					               			<div href="#Deserts">Deserts</div>
-					                		<div href="#Beverages">Beverages</div>
+											<div>Appetizers</div>
+					                		<div>Entrees</div>
+					               			<div>Breads</div>
+					               			<div>Deserts</div>
+					                		<div>Beverages</div>
 										</div>
 									</div>	
 								</Link>
@@ -96,10 +96,10 @@ const NavBar = () => {
 								>Hot</Link>
 							</li>	
 							<li>
-								<a 
-								href='/#do-good'
+								<Link 
+								to="/shop" exact="true"
 								onClick={() => setHomeTabIsActive(true)}
-								>Do Good</a>
+								>Treat Yourself</Link>
 							</li>														
 						</ul>
 					</div>	
@@ -113,7 +113,7 @@ const NavBar = () => {
 						<p>{`($${totalPrice.toFixed(2)})`}</p>	
 					</Link>			
 				</div>
-				
+
 			</div>
 		</header>	
 	);

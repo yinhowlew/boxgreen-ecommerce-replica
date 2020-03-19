@@ -1,6 +1,5 @@
 .shop-hero-banner {
-	background-image: url("/images/banner-1.jpg");
-/*	background-image: url("%PUBLIC_URL%/images/banner-1.jpg");*/
+	background-image: url('https://s3-ap-southeast-1.amazonaws.com/boxgreen-co/pictures/470/original/160518_BG-fiveoff-Shopbanner.jpg?1526524785');
 	background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -30,7 +29,7 @@
 
 @media only screen and (max-width: 600px) {
 	.shop-hero-banner {
-		background-image: url("/images/banner-1-mobile.jpg");
+		background-image: url("https://s3-ap-southeast-1.amazonaws.com/boxgreen-co/pictures/474/original/160518_BG-fiveoff-Shopbanner-Mobile.jpg?1526524264");
 		height: 40vh;
 	}
 	.shop-container {

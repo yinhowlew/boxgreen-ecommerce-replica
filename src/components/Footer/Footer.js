@@ -17,7 +17,7 @@ const Footer = () => {
 						required='required'
 					>
 					</input>
-					<button className="btn btn-primary btn-cart">
+					<button className="btn btn-primary btn-cart btn-sub-edit">
 						subscribe
 					</button>
 				</div>				
@@ -63,22 +63,22 @@ const Footer = () => {
 				<div className="each-footer-link-list">
 					<h2>check out our nuts</h2>
 					<div className='social-media-icons'>
-						<img src='/images/footer/fb-icon.png' alt='icon' />
-						<img src='/images/footer/instagram-icon.png' alt='icon' />
-						<img src='/images/footer/youtube-icon.png' alt='icon' />
+						<img src={`${process.env.PUBLIC_URL}/images/footer/fb-icon.png`} alt='icon' />
+						<img src={`${process.env.PUBLIC_URL}/images/footer/instagram-icon.png`} alt='icon' />
+						<img src={`${process.env.PUBLIC_URL}/images/footer/youtube-icon.png`} alt='icon' />
 					</div>
 					<div>
-						<img className='cert-icon-1' src='/images/footer/cert-icon-1.png' alt='icon' />
-						<img className='cert-icon-2'src='/images/footer/cert-icon.png' alt='icon' />
+						<img className='cert-icon-1' src={`${process.env.PUBLIC_URL}/images/footer/cert-icon-1.png`} alt='icon' />
+						<img className='cert-icon-2'src={`${process.env.PUBLIC_URL}/images/footer/cert-icon.png`} alt='icon' />
 					</div>					
 				</div>																
 			</div>	
 
 			<div className="mobile-footer-link-section">
 				<div className="mobile-social-media-section">
-					<img src='/images/footer/fb-icon.png' alt='icon' />
-					<img src='/images/footer/instagram-icon.png' alt='icon' />
-					<img src='/images/footer/youtube-icon.png' alt='icon' />
+					<img src={`${process.env.PUBLIC_URL}/images/footer/fb-icon.png`} alt='icon' />
+					<img src={`${process.env.PUBLIC_URL}/images/footer/instagram-icon.png`} alt='icon' />
+					<img src={`${process.env.PUBLIC_URL}/images/footer/youtube-icon.png`} alt='icon' />
 				</div>
 				<ul className="mobile-footer-link-list">
 					<li>our story</li>

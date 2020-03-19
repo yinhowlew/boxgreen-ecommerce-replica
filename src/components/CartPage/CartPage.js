@@ -27,7 +27,7 @@ const CartPage = () => {
 					src={`${process.env.PUBLIC_URL}/images/empty-cart.png`}
 					/ >
 					<p>oops, your cart is empty</p>
-	     			<a className="btn btn-primary btn-lg" href="/shop">start adding snacks</a>
+	     			<a className="btn btn-primary btn-lg" href={`${process.env.PUBLIC_URL}/shop`}>start adding snacks</a>
 				</div> 
 				:
 				<div className="full-cart-container">
@@ -76,8 +76,8 @@ const CartPage = () => {
 				</div>
 				<hr />
 				<div className="cart-buttons-section">
-					<a className="btn btn-primary btn-checkout" href="/shop">subscriber login</a>	
-					<a className="btn btn-primary btn-checkout btn-checkout-2" href="/shop">checkout as guest</a>
+					<a className="btn btn-primary btn-checkout" href={`${process.env.PUBLIC_URL}/shop`}>subscriber login</a>	
+					<a className="btn btn-primary btn-checkout btn-checkout-2" href={`${process.env.PUBLIC_URL}/shop`}>checkout as guest</a>
 				</div>
 				<p className="free-shipping"> free shipping if you spend $30 and above!</p>	
 				<div className="coupon-container">

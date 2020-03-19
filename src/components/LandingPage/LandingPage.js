@@ -18,7 +18,7 @@ const LandingPage = () => {
 		     				<p>enter it here</p>
 		     			</div>
 	     			</div>
-	     			<a className="btn btn-primary btn-lg" href="/shop">start adding snacks</a>
+	     			<a className="btn btn-primary btn-lg" href={`${process.env.PUBLIC_URL}/shop`}>start adding snacks</a>
 	     			<div>by continuing, you agree to our terms and privacy policy.
 	     			</div>     			
 	     	 	</div>  	
@@ -28,17 +28,17 @@ const LandingPage = () => {
 				<h3>how it works</h3>
 				<div className='how-it-works-steps'>
 					<div className='each-how-it-works-step'>
-						<img src='/images/how-it-works-1.png' alt='how-it-works' />
+						<img src={`${process.env.PUBLIC_URL}/images/how-it-works-1.png`} alt='how-it-works' />
 						<p className='special-p-tag'>choose</p>
 						<p>fill your pantry with over 50 deliciously wholesome options</p>
 					</div>
 					<div className='each-how-it-works-step'>
-						<img src='/images/how-it-works-2.png' alt='how-it-works' />
+						<img src={`${process.env.PUBLIC_URL}/images/how-it-works-2.png`} alt='how-it-works' />
 						<p className='special-p-tag'>start a plan</p>
 						<p>choose how often you would like to receive a box of 12 snack packs (6 varieties x 2 snack pack)</p>						
 					</div>
 					<div className='each-how-it-works-step'>
-						<img src='/images/how-it-works-3.png' alt='how-it-works' />
+						<img src={`${process.env.PUBLIC_URL}/images/how-it-works-3.png`} alt='how-it-works' />
 						<p className='special-p-tag'>sit back and snack</p>
 						<p>enjoy your snacks regularly as part of a better diet!</p>						
 					</div>										
@@ -57,7 +57,7 @@ const LandingPage = () => {
 						<br />
 						needs covered
 					</h4>
-					<a className="btn btn-primary btn-lg" href="/shop">start adding snacks</a>
+					<a className="btn btn-primary btn-lg" href={`${process.env.PUBLIC_URL}/shop`}>start adding snacks</a>
 				</div>
 			</div>
 
@@ -73,7 +73,7 @@ const LandingPage = () => {
 						<h4>
 							for every box sold, a portion of the proceeds will go to help provide meals for the less privileged
 						</h4>
-						<a className="btn btn-primary btn-lg" href="/shop">start adding snacks</a>
+						<a className="btn btn-primary btn-lg" href={`${process.env.PUBLIC_URL}/shop`}>start adding snacks</a>
 					</div>
 				</div>	
 			</div>					
