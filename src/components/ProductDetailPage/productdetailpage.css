@@ -98,6 +98,14 @@
 }
 
 /* BOTTOM SECTION */
+.card {
+	width: 260px;
+	margin: 0px 0px 15px 0px;
+	border: 2px solid;
+	border-color: rgba(0, 0, 0, 0.1);	
+	border-radius: 10px
+}
+
 .recommendation-section-container {
 	align-items: center;	
 }
@@ -120,6 +128,31 @@
 }
 .recommendation-items {
 	margin:10px 10px;
+}
+
+/* some classes from productList that didn't pass over if the page comes directly? */
+.btn-shop {
+	align-self: center;
+	width: 60%;
+	padding: 0.4rem;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 18px;
+	line-height: 1.33;
+	border-radius: 6px;
+	border: none;
+	color: #fff;
+    background-color: #4cbc94;	
+}
+
+.btn-shop:hover {
+	color: #4cbc94;
+    background-color: #fff;
+}
+
+.btn-shop p {
+	font-size: 1rem;
+	margin: 0;
 }
 
 /* MEDIA SECTION */

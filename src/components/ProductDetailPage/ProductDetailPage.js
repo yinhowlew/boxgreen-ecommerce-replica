@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 import allActions from "../../actions";
 import ErrorPage from "../ErrorPage/ErrorPage"
-
+ 
 const ProductDetailPage = ({ match }) => {
 	// get db and update product objects
 	const dispatch = useDispatch();
