@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/boxgreen-ecommerce-replica/static/css/main.392b3c26.chunk.css",
-    "main.js": "/boxgreen-ecommerce-replica/static/js/main.8972e991.chunk.js",
-    "main.js.map": "/boxgreen-ecommerce-replica/static/js/main.8972e991.chunk.js.map",
-    "runtime-main.js": "/boxgreen-ecommerce-replica/static/js/runtime-main.c6513713.js",
-    "runtime-main.js.map": "/boxgreen-ecommerce-replica/static/js/runtime-main.c6513713.js.map",
+    "main.js": "/boxgreen-ecommerce-replica/static/js/main.3fc76d67.chunk.js",
+    "main.js.map": "/boxgreen-ecommerce-replica/static/js/main.3fc76d67.chunk.js.map",
+    "runtime-main.js": "/boxgreen-ecommerce-replica/static/js/runtime-main.5082e565.js",
+    "runtime-main.js.map": "/boxgreen-ecommerce-replica/static/js/runtime-main.5082e565.js.map",
     "static/css/2.385c8688.chunk.css": "/boxgreen-ecommerce-replica/static/css/2.385c8688.chunk.css",
     "static/js/2.2c5fc916.chunk.js": "/boxgreen-ecommerce-replica/static/js/2.2c5fc916.chunk.js",
     "static/js/2.2c5fc916.chunk.js.map": "/boxgreen-ecommerce-replica/static/js/2.2c5fc916.chunk.js.map",
     "static/css/3.5a4dc2e0.chunk.css": "/boxgreen-ecommerce-replica/static/css/3.5a4dc2e0.chunk.css",
-    "static/js/3.de78dfab.chunk.js": "/boxgreen-ecommerce-replica/static/js/3.de78dfab.chunk.js",
-    "static/js/3.de78dfab.chunk.js.map": "/boxgreen-ecommerce-replica/static/js/3.de78dfab.chunk.js.map",
-    "static/css/4.3c015c7f.chunk.css": "/boxgreen-ecommerce-replica/static/css/4.3c015c7f.chunk.css",
-    "static/js/4.c0af3ac5.chunk.js": "/boxgreen-ecommerce-replica/static/js/4.c0af3ac5.chunk.js",
-    "static/js/4.c0af3ac5.chunk.js.map": "/boxgreen-ecommerce-replica/static/js/4.c0af3ac5.chunk.js.map",
+    "static/js/3.0068a99c.chunk.js": "/boxgreen-ecommerce-replica/static/js/3.0068a99c.chunk.js",
+    "static/js/3.0068a99c.chunk.js.map": "/boxgreen-ecommerce-replica/static/js/3.0068a99c.chunk.js.map",
+    "static/css/4.e36d0e1d.chunk.css": "/boxgreen-ecommerce-replica/static/css/4.e36d0e1d.chunk.css",
+    "static/js/4.ab645fb1.chunk.js": "/boxgreen-ecommerce-replica/static/js/4.ab645fb1.chunk.js",
+    "static/js/4.ab645fb1.chunk.js.map": "/boxgreen-ecommerce-replica/static/js/4.ab645fb1.chunk.js.map",
     "static/css/5.6ecf7bb5.chunk.css": "/boxgreen-ecommerce-replica/static/css/5.6ecf7bb5.chunk.css",
     "static/js/5.5704c4da.chunk.js": "/boxgreen-ecommerce-replica/static/js/5.5704c4da.chunk.js",
     "static/js/5.5704c4da.chunk.js.map": "/boxgreen-ecommerce-replica/static/js/5.5704c4da.chunk.js.map",
@@ -27,11 +27,11 @@
     "static/js/8.2ac4b076.chunk.js": "/boxgreen-ecommerce-replica/static/js/8.2ac4b076.chunk.js",
     "static/js/8.2ac4b076.chunk.js.map": "/boxgreen-ecommerce-replica/static/js/8.2ac4b076.chunk.js.map",
     "index.html": "/boxgreen-ecommerce-replica/index.html",
-    "precache-manifest.0cbf6983c25fa84e9a3231afa57ac5f2.js": "/boxgreen-ecommerce-replica/precache-manifest.0cbf6983c25fa84e9a3231afa57ac5f2.js",
+    "precache-manifest.2a636fb65cc20d9adc37afcd1228f7c6.js": "/boxgreen-ecommerce-replica/precache-manifest.2a636fb65cc20d9adc37afcd1228f7c6.js",
     "service-worker.js": "/boxgreen-ecommerce-replica/service-worker.js",
     "static/css/2.385c8688.chunk.css.map": "/boxgreen-ecommerce-replica/static/css/2.385c8688.chunk.css.map",
     "static/css/3.5a4dc2e0.chunk.css.map": "/boxgreen-ecommerce-replica/static/css/3.5a4dc2e0.chunk.css.map",
-    "static/css/4.3c015c7f.chunk.css.map": "/boxgreen-ecommerce-replica/static/css/4.3c015c7f.chunk.css.map",
+    "static/css/4.e36d0e1d.chunk.css.map": "/boxgreen-ecommerce-replica/static/css/4.e36d0e1d.chunk.css.map",
     "static/css/5.6ecf7bb5.chunk.css.map": "/boxgreen-ecommerce-replica/static/css/5.6ecf7bb5.chunk.css.map",
     "static/css/6.bc16d36f.chunk.css.map": "/boxgreen-ecommerce-replica/static/css/6.bc16d36f.chunk.css.map",
     "static/css/7.1b79cda5.chunk.css.map": "/boxgreen-ecommerce-replica/static/css/7.1b79cda5.chunk.css.map",
@@ -41,10 +41,10 @@
     "static/media/gotham-rounded.css": "/boxgreen-ecommerce-replica/static/media/VarelaRound.f7ffa6a4.eot"
   },
   "entrypoints": [
-    "static/js/runtime-main.c6513713.js",
+    "static/js/runtime-main.5082e565.js",
     "static/css/2.385c8688.chunk.css",
     "static/js/2.2c5fc916.chunk.js",
     "static/css/main.392b3c26.chunk.css",
-    "static/js/main.8972e991.chunk.js"
+    "static/js/main.3fc76d67.chunk.js"
   ]
 }
