@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './filter.css';
 import { useSelector, useDispatch } from 'react-redux';
 import allActions from "../../actions";
@@ -19,9 +19,22 @@ const Filter = () => {
 		</div>	
 	))
 
+	// add listener to window resize event so ingredient toggle can update
+	const [width, setWidth] = useState(window.innerWidth);
+	useEffect(() => {
+		function handleResize() {
+			setWidth(window.innerWidth);
+			setIngredientOpen((window.innerWidth > 600) ? true : false)
+		}
+		window.addEventListener('resize', handleResize)
+		return _ => {
+			window.removeEventListener('resize', handleResize)
+		}
+	})
+
 	// for ingredient drop-down list toggle
 	const [ingredientOpen, setIngredientOpen] = useState(
-		(window.innerWidth > 600) ? true : false
+		(width > 600) ? true : false
 	);
 
 	const ingredientToggle = () => {

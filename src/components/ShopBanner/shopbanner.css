@@ -1,9 +1,13 @@
-.slider-container {
-
+/*  hide prev/next button   */
+.slider-control-centerleft {
+	display: none !important;
+}
+.slider-control-centerright {
+	display: none !important;
 }
 
-@media only screen and (max-width: 768px) {
+/*@media only screen and (max-width: 768px) {
 	.slider-container {
-		display: none;
+		display: none !important;
 	}
-}
+}*/

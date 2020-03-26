@@ -164,9 +164,19 @@ this is fixed by:
 - BrowserRouter basename={process.env.PUBLIC_URL}
 - fixed all images to have process.env.PUBLIC_URL/ in front
 - all <a> tag changed to <Link>
+45)   for css styling of important component, if small and desperate, use important!
+46)   re-render ShopBanner and Filter when window resize by adding event listener in useEffect hook
+47)  Carousel component nuka-carousel is good; added autoPlay, wrapAround, and disabled prev/next buttons
+also,  rendered mobile images based on window.innerWidth
 */  
 
 /*  INSTALLED
+
+Good:   nuka-carousel
+https://reactjsexample.com/a-pure-reactjs-carousel-component/
+https://github.com/FormidableLabs/nuka-carousel
+so far so good
+
 redux
 react-redux
 redux-logger
@@ -178,7 +188,7 @@ installed npm i gotham-fonts
 - at index.js:  import 'gotham-fonts/css/gotham-rounded.css';  (got the path from node module folder)
 - at index.css,   font-family: 'Gotham Rounded', sans-serif; (got the name from css file)o
 
-npm install infinite-react-carousel 
+(UNINSTALLED) npm install infinite-react-carousel 
 configurable here:  https://github.com/g787543/infinite-react-carousel
 
 installed react-router-dom

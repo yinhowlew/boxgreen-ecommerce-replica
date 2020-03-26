@@ -1,6 +1,6 @@
 import React from 'react';
 import './shop.css';
-// import ShopBanner from '../ShopBanner/ShopBanner';
+import ShopBanner from '../ShopBanner/ShopBanner';
 import ActionBar from '../ActionBar/ActionBar';
 import Filter from '../Filter/Filter';
 import ProductList from '../ProductList/ProductList';
@@ -8,8 +8,9 @@ import ProductList from '../ProductList/ProductList';
 const Shop = () => {
 	return (
 		<section>
-			<div className="shop-hero-banner">
-			</div>
+			{/*<div className="shop-hero-banner">
+			</div>*/}
+			<ShopBanner />
 			<div className="shop-container">
 				<ActionBar />
 				<div className="shop-container-2">
