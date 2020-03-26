@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8d600fad67509e1fc4baeb9b233d9276",
+    "revision": "a35613b565061253f5d88a93bad1fa28",
     "url": "/boxgreen-ecommerce-replica/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/boxgreen-ecommerce-replica/static/css/2.385c8688.chunk.css"
   },
   {
-    "revision": "8be7d2f533a6ed1109fd",
-    "url": "/boxgreen-ecommerce-replica/static/css/3.577fe663.chunk.css"
+    "revision": "82c52947c1a134bf452f",
+    "url": "/boxgreen-ecommerce-replica/static/css/3.4c2475bb.chunk.css"
   },
   {
     "revision": "4ac48119591fb02b1735",
@@ -32,7 +32,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/boxgreen-ecommerce-replica/static/css/9.2ce3e9ed.chunk.css"
   },
   {
-    "revision": "48d546e6a33f71249d6c",
+    "revision": "49905de6f284c855dcd6",
     "url": "/boxgreen-ecommerce-replica/static/css/main.392b3c26.chunk.css"
   },
   {
@@ -44,8 +44,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/boxgreen-ecommerce-replica/static/js/2.960e084e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8be7d2f533a6ed1109fd",
-    "url": "/boxgreen-ecommerce-replica/static/js/3.155a08f7.chunk.js"
+    "revision": "82c52947c1a134bf452f",
+    "url": "/boxgreen-ecommerce-replica/static/js/3.eafc0e74.chunk.js"
   },
   {
     "revision": "84e1dde36f82518c6814",
@@ -76,12 +76,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/boxgreen-ecommerce-replica/static/js/9.e9595ba2.chunk.js"
   },
   {
-    "revision": "48d546e6a33f71249d6c",
-    "url": "/boxgreen-ecommerce-replica/static/js/main.f1098816.chunk.js"
+    "revision": "49905de6f284c855dcd6",
+    "url": "/boxgreen-ecommerce-replica/static/js/main.659b2ef8.chunk.js"
   },
   {
-    "revision": "60eaa43e51698ae56680",
-    "url": "/boxgreen-ecommerce-replica/static/js/runtime-main.ce7e2972.js"
+    "revision": "6450dd108ba76b0ec802",
+    "url": "/boxgreen-ecommerce-replica/static/js/runtime-main.eec54fc4.js"
   },
   {
     "revision": "19a95730914b90cf523c0439bc5aa0e7",
