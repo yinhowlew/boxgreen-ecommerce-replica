@@ -168,6 +168,7 @@ this is fixed by:
 46)   re-render ShopBanner and Filter when window resize by adding event listener in useEffect hook
 47)  Carousel component nuka-carousel is good; added autoPlay, wrapAround, and disabled prev/next buttons
 also,  rendered mobile images based on window.innerWidth
+48)  added maximum-scale=1 to fix form dropdown zoom in issue
 */  
 
 /*  INSTALLED

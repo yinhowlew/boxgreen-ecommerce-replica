@@ -3,7 +3,6 @@ import './actionbar.css';
 import { useSelector, useDispatch } from 'react-redux';
 import allActions from "../../actions";
 
-// under select:   value={sort} onChange={(e) => dispatch(sortProducts(filteredProducts, e.target.value))}
 
 const ActionBar = () => {
 
@@ -22,8 +21,8 @@ const ActionBar = () => {
 				<div className='sort-container'>
 					<select className="form-control sort-edit" value={price} onChange={(e) => dispatch(allActions.productActions.sortProducts(filteredProducts, e.target.value))}>
                         <option value="">sort by price</option>
-                        <option value="lowestprice">Lowest to highest</option>
-                        <option value="highestprice">Highest to lowest</option>
+                        <option value="lowestprice">Lowest</option>
+                        <option value="highestprice">Highest</option>
                     </select>
 				</div>
 				<div className='search-container'>
