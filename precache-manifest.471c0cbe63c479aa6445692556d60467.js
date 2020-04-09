@@ -1,87 +1,111 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a35613b565061253f5d88a93bad1fa28",
+    "revision": "4b6e68892ffaf4cc70afc140d52ec069",
     "url": "/boxgreen-ecommerce-replica/index.html"
   },
   {
-    "revision": "5654f88ad00d735b896b",
+    "revision": "85eb63a3e29f42d1def0",
+    "url": "/boxgreen-ecommerce-replica/static/css/10.2ce3e9ed.chunk.css"
+  },
+  {
+    "revision": "9079e189d9c26b8e6cc6",
+    "url": "/boxgreen-ecommerce-replica/static/css/11.3cf6d236.chunk.css"
+  },
+  {
+    "revision": "beb19bf8f708707cd1a7",
+    "url": "/boxgreen-ecommerce-replica/static/css/12.a8e3ac43.chunk.css"
+  },
+  {
+    "revision": "58a4c248e4da353903b8",
     "url": "/boxgreen-ecommerce-replica/static/css/2.385c8688.chunk.css"
   },
   {
-    "revision": "82c52947c1a134bf452f",
+    "revision": "f443fd81f334a5014a9c",
     "url": "/boxgreen-ecommerce-replica/static/css/3.4c2475bb.chunk.css"
   },
   {
-    "revision": "4ac48119591fb02b1735",
+    "revision": "69c550210733c9993805",
     "url": "/boxgreen-ecommerce-replica/static/css/5.e36d0e1d.chunk.css"
   },
   {
-    "revision": "00f124bd22a3e029e30b",
+    "revision": "e82c8cb5eec30f213a15",
     "url": "/boxgreen-ecommerce-replica/static/css/6.6ecf7bb5.chunk.css"
   },
   {
-    "revision": "e07eed727b44d1f4736f",
+    "revision": "22553f7f43a2f47b8f16",
     "url": "/boxgreen-ecommerce-replica/static/css/7.bc16d36f.chunk.css"
   },
   {
-    "revision": "bb801d51be1ca663af1e",
+    "revision": "4e6e466a0d7d333337cd",
     "url": "/boxgreen-ecommerce-replica/static/css/8.1b79cda5.chunk.css"
   },
   {
-    "revision": "f28f7d2cb0f2914e2339",
-    "url": "/boxgreen-ecommerce-replica/static/css/9.2ce3e9ed.chunk.css"
+    "revision": "24d4826ee7d7653ffb86",
+    "url": "/boxgreen-ecommerce-replica/static/css/9.4235ca0f.chunk.css"
   },
   {
-    "revision": "49905de6f284c855dcd6",
-    "url": "/boxgreen-ecommerce-replica/static/css/main.392b3c26.chunk.css"
+    "revision": "b6a6e91f6f7d580a2f48",
+    "url": "/boxgreen-ecommerce-replica/static/css/main.80b28130.chunk.css"
   },
   {
-    "revision": "5654f88ad00d735b896b",
-    "url": "/boxgreen-ecommerce-replica/static/js/2.960e084e.chunk.js"
+    "revision": "85eb63a3e29f42d1def0",
+    "url": "/boxgreen-ecommerce-replica/static/js/10.892849d8.chunk.js"
   },
   {
-    "revision": "eb56b19eba63a53416f4fd778023529f",
-    "url": "/boxgreen-ecommerce-replica/static/js/2.960e084e.chunk.js.LICENSE.txt"
+    "revision": "9079e189d9c26b8e6cc6",
+    "url": "/boxgreen-ecommerce-replica/static/js/11.3355c271.chunk.js"
   },
   {
-    "revision": "82c52947c1a134bf452f",
-    "url": "/boxgreen-ecommerce-replica/static/js/3.eafc0e74.chunk.js"
+    "revision": "beb19bf8f708707cd1a7",
+    "url": "/boxgreen-ecommerce-replica/static/js/12.70cb816d.chunk.js"
   },
   {
-    "revision": "84e1dde36f82518c6814",
-    "url": "/boxgreen-ecommerce-replica/static/js/4.aad7d52c.chunk.js"
+    "revision": "58a4c248e4da353903b8",
+    "url": "/boxgreen-ecommerce-replica/static/js/2.82d48bd2.chunk.js"
+  },
+  {
+    "revision": "cdc390c7b5182d71d5aba4544eaf2ae6",
+    "url": "/boxgreen-ecommerce-replica/static/js/2.82d48bd2.chunk.js.LICENSE.txt"
+  },
+  {
+    "revision": "f443fd81f334a5014a9c",
+    "url": "/boxgreen-ecommerce-replica/static/js/3.caddc400.chunk.js"
+  },
+  {
+    "revision": "a6069306cde8088f01a6",
+    "url": "/boxgreen-ecommerce-replica/static/js/4.25031d7c.chunk.js"
   },
   {
     "revision": "97636669c8193ace9a3b4f1548fc4d0b",
-    "url": "/boxgreen-ecommerce-replica/static/js/4.aad7d52c.chunk.js.LICENSE.txt"
+    "url": "/boxgreen-ecommerce-replica/static/js/4.25031d7c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4ac48119591fb02b1735",
-    "url": "/boxgreen-ecommerce-replica/static/js/5.3372ad73.chunk.js"
+    "revision": "69c550210733c9993805",
+    "url": "/boxgreen-ecommerce-replica/static/js/5.a1fa7a31.chunk.js"
   },
   {
-    "revision": "00f124bd22a3e029e30b",
-    "url": "/boxgreen-ecommerce-replica/static/js/6.ca4374a2.chunk.js"
+    "revision": "e82c8cb5eec30f213a15",
+    "url": "/boxgreen-ecommerce-replica/static/js/6.9f137014.chunk.js"
   },
   {
-    "revision": "e07eed727b44d1f4736f",
-    "url": "/boxgreen-ecommerce-replica/static/js/7.171b7f8b.chunk.js"
+    "revision": "22553f7f43a2f47b8f16",
+    "url": "/boxgreen-ecommerce-replica/static/js/7.495e8389.chunk.js"
   },
   {
-    "revision": "bb801d51be1ca663af1e",
-    "url": "/boxgreen-ecommerce-replica/static/js/8.bec42e1d.chunk.js"
+    "revision": "4e6e466a0d7d333337cd",
+    "url": "/boxgreen-ecommerce-replica/static/js/8.9d9f93b0.chunk.js"
   },
   {
-    "revision": "f28f7d2cb0f2914e2339",
-    "url": "/boxgreen-ecommerce-replica/static/js/9.e9595ba2.chunk.js"
+    "revision": "24d4826ee7d7653ffb86",
+    "url": "/boxgreen-ecommerce-replica/static/js/9.03260f83.chunk.js"
   },
   {
-    "revision": "49905de6f284c855dcd6",
-    "url": "/boxgreen-ecommerce-replica/static/js/main.659b2ef8.chunk.js"
+    "revision": "b6a6e91f6f7d580a2f48",
+    "url": "/boxgreen-ecommerce-replica/static/js/main.1ebef53e.chunk.js"
   },
   {
-    "revision": "6450dd108ba76b0ec802",
-    "url": "/boxgreen-ecommerce-replica/static/js/runtime-main.eec54fc4.js"
+    "revision": "0da3f4f632c4f7051502",
+    "url": "/boxgreen-ecommerce-replica/static/js/runtime-main.976988ef.js"
   },
   {
     "revision": "19a95730914b90cf523c0439bc5aa0e7",

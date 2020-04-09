@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/boxgreen-ecommerce-replica/precache-manifest.02c7772f079aa5afbce0d729db56e854.js"
+  "/boxgreen-ecommerce-replica/precache-manifest.471c0cbe63c479aa6445692556d60467.js"
 );
 
 self.addEventListener('message', (event) => {

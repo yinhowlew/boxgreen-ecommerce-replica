@@ -1,2 +1,2 @@
 .productlist-container{display:flex;flex-direction:row;flex-wrap:wrap;margin:5px 0;justify-content:space-evenly;width:80%}.card{width:260px;margin:0 0 15px;border:2px solid rgba(0,0,0,.1);border-radius:10px}.short-desc{margin:10px;font-size:.9rem}.listing-price{color:#4cbc94;font-weight:700}.btn-shop{align-self:center;width:60%;padding:.4rem;margin-top:10px;margin-bottom:10px;font-size:18px;line-height:1.33;border-radius:6px;border:none;color:#fff;background-color:#4cbc94}.btn-shop:hover{color:#4cbc94;background-color:#fff}.btn-shop p{font-size:1rem;margin:0}@media only screen and (max-width:600px){.productlist-container{width:100%}}
-/*# sourceMappingURL=9.2ce3e9ed.chunk.css.map */
+/*# sourceMappingURL=10.2ce3e9ed.chunk.css.map */
