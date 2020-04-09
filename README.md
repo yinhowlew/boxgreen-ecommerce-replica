@@ -5,12 +5,13 @@ Copyright and credits belongs to the good folks of boxgreen pte ltd (a healthy s
 
 
 ## Technologies
-This project is a front-end only project.
+This project is a front-end only project with an experimental integration with Firebase
 
 ### `framework and tools`
 React<br />
 Redux<br />
 React-router-dom<br />
+Firebase Authentication and Firestore <br />
 
 ### `concepts practised`
 Dynamic import: react.lazy/suspense<br />
@@ -18,11 +19,13 @@ React hooks: useState, useEffect<br />
 React-redux hooks: useSelector, useDispatch<br />
 localStorage<br />
 Functional programming<br />
+Serverless with Firebase<br />
 
 ### `features`
 cart<br />
 product listing<br />
 dynamic filter, sort, search<br />
 product details<br />
+login/signup/profile update <br />
 
 ### March 2020 (in the midst of Coronavirus crisis)
