@@ -1,8 +1,9 @@
 import React, { useEffect, Suspense, lazy } from 'react';
 import { Route, Switch } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
+// import { useSelector } from 'react-redux';
+import firebase from './config/Fire';
 import allActions from './actions'
-
 import NavBar from './components/NavBar/NavBar';
 // import LandingPage from './components/LandingPage/LandingPage';
 // import Shop from './components/Shop/Shop';
@@ -20,15 +21,31 @@ const CartPage = lazy(() => import('./components/CartPage/CartPage'));
 const ProductList = lazy(() => import('./components/ProductList/ProductList'));
 const ProductDetailPage = lazy(() => import('./components/ProductDetailPage/ProductDetailPage'));
 const ErrorPage = lazy(() => import('./components/ErrorPage/ErrorPage'));
-
+const Login = lazy(() => import('./components/Login/Login'));
+const Signup = lazy(() => import('./components/Signup/Signup'));
+const Profile = lazy(() => import('./components/Profile/Profile'));
 
 const App = () => {
+
+  const authListener = () => {
+    firebase.auth().onAuthStateChanged((user) => {
+      if (user) {
+        dispatch(allActions.userActions.setUserAuth(user.displayName))
+      } else {
+        dispatch(allActions.userActions.setUserAuth(null))
+      }
+    })
+  }
+
   const dispatch = useDispatch();
+  // let user = Fire.auth().currentUser;
+  // const user = useSelector(state => state.userReducer.user);
 
   useEffect(() => {
     if (localStorage.getItem("cartItems")) {
-    dispatch(allActions.cartActions.getLocalCart())
+      dispatch(allActions.cartActions.getLocalCart())
     }
+    authListener()
   })  
         
   return (
@@ -41,8 +58,15 @@ const App = () => {
             <Route path="/shop/cart" component={CartPage} />  
             <Route path="/shop/products" component={ProductList} />  
             <Route path="/shop/product/:id" component={ProductDetailPage} /> 
+            <Route path="/login" component={Login} /> 
+            <Route path="/signup" component={Signup} />  
+            <Route path="/profile" component={Profile} />              
             <Route component={ErrorPage} />
-            {/*<Redirect to="/" /> */}     
+            {/*
+            <Route path="/login" component={user ? Shop : Login} /> 
+            <Route path="/signup" component={user ? Shop : Signup} />                 
+            <Redirect to="/" /> 
+            */}     
           </Switch>
         </Suspense>             
       <Footer />      
@@ -56,13 +80,10 @@ export default App;
 
 /* 
 next:  
-drop down menu item
-Carousel?  remove infinite-react-carousel
-add a subscription pricing page linked from landing
-refactor filter algorithm  -- ask Lam or vinh?
 
 low-priority/unnecessary:
 hometabisactive--> need to be global state? if click Back won't update
+when page refresh, error state should set to null again so alert doesnt persist
 (too much work) navbar and menu detailsdrop down like boxgreen: e.g. link to products;  what about lnk to products/promo? unnecessary?
 navbar - make side menu in mobile?
 what to do with stand-aline product page: https://www.boxgreen.co/shop/products
@@ -169,9 +190,25 @@ this is fixed by:
 47)  Carousel component nuka-carousel is good; added autoPlay, wrapAround, and disabled prev/next buttons
 also,  rendered mobile images based on window.innerWidth
 48)  added maximum-scale=1 to fix form dropdown zoom in issue
+49)  Terms / Privacy overlay - using Bootstrap Modal:
+.overlay-modal {
+  display: block  (toggle to none)
+  position: fixed;
+  background-color: rgba(0,0,0,0.7);
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 100;
+}
+50)   Firebase integration for authentication
+51)   error message using bootstrap alert and state
+52)   integration of Firebase's Firestore;  connect with authentication
+53)  remember to add config file to gitignore
 */  
 
 /*  INSTALLED
+installed:  firebase 
 
 Good:   nuka-carousel
 https://reactjsexample.com/a-pure-reactjs-carousel-component/

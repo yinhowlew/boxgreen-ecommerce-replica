@@ -1,14 +1,20 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
+import allActions from '../../actions'
 import './navbar.css';
 
 const NavBar = () => {
 
+	// const testUser = null;
+	const user = useSelector(state => state.userReducer.user);
 	const cartItems = useSelector(state => state.cartReducer.cartItems);
 
 	const cartQuantity = cartItems.reduce((acc,item) => acc + item.count, 0);
 	const totalPrice = cartItems.reduce((acc,item) => acc + (item.count * item.price), 0);
+
+	const dispatch = useDispatch();
 
 	const openMenu = () => {
 		let menu = document.querySelector('.opened-menu-container');
@@ -54,10 +60,22 @@ const NavBar = () => {
 							onClick={() => setHomeTabIsActive(false)}	
 							to="/shop">shop</Link></div>
 					</div>
+					{ user 
+					?
 					<div className='login-buttons'>
-						<div className='tab'>redeem</div>
-						<div className='tab'>login</div>			
-					</div>												
+						<Link className='tab' to="/Profile">Hi, {user}</Link> 
+						<div className='tab' onClick={() => dispatch(allActions.userActions.logOutUser())}>logout</div>
+					</div>
+					:
+					<div className='login-buttons'>
+						<Link className='tab'
+							to="/Signup">Redeem
+						</Link>	
+						<Link className='tab'
+							to="/login">login
+						</Link>	
+					</div>						
+					}
 				</div>
 			</div>	
  
