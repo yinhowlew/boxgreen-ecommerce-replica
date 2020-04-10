@@ -174,28 +174,6 @@ const getProfile = () => (dispatch) => {
 			console.log("user doesn't exist")  //handle later
 		}
 	})
-
-	//  previous method:
-	// firebase.firestore().collection('users').where("email", "==", email).get()
-	// .then(function(users) {
-	// 	users.forEach(function(user) {
-	// 		// console.log(user.data().email)
-	// 		const email = user.data().email;
-	// 		const name = user.data().name
-	// 		const phone = user.data().phone
-	// 		return dispatch({
-	// 			type: READ_PROFILE,
-	// 			payload: {
-	// 				email: email,
-	// 				name: name,
-	// 				phone: phone
-	// 			}
-	// 		})			
-	// 	})
-	// })
-	// .catch(function(error) {
-	// 	console.log(error)
-	// })
 }
 
 const updateProfile = () => (dispatch) => {
