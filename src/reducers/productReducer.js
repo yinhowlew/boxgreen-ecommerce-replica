@@ -3,10 +3,11 @@ import {
 } from '../constants.js';
 
 // to remove below later...
-import { predata } from './hack-data.js';
+// import { predata } from './hack-data.js';
 
 const initialState = {
-	products: predata,
+	// products: predata,
+	products: [],
 	filteredProducts: [],
 	price: ""
 }

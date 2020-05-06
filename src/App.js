@@ -27,16 +27,6 @@ const Profile = lazy(() => import('./components/Profile/Profile'));
 
 const App = () => {
 
-  const authListener = () => {
-    firebase.auth().onAuthStateChanged((user) => {
-      if (user) {
-        dispatch(allActions.userActions.setUserAuth(user.displayName))
-      } else {
-        dispatch(allActions.userActions.setUserAuth(null))
-      }
-    })
-  }
-
   const dispatch = useDispatch();
   // let user = Fire.auth().currentUser;
   // const user = useSelector(state => state.userReducer.user);
@@ -45,8 +35,19 @@ const App = () => {
     if (localStorage.getItem("cartItems")) {
       dispatch(allActions.cartActions.getLocalCart())
     }
-    authListener()
-  })  
+
+    // moved the function to inside useEffect because ...
+    const authListener = () => {
+      firebase.auth().onAuthStateChanged((user) => {
+        if (user) {
+          dispatch(allActions.userActions.setUserAuth(user.displayName))
+        } else {
+          dispatch(allActions.userActions.setUserAuth(null))
+        }
+      })
+    }
+  authListener()
+  }, [dispatch])  
         
   return (
     <div className='App'> 
@@ -205,15 +206,21 @@ also,  rendered mobile images based on window.innerWidth
 51)   error message using bootstrap alert and state
 52)   integration of Firebase's Firestore;  connect with authentication
 53)  remember to add config file to gitignore
+54)   app deployed on Firebase. solved routing issue!
+55)  magically solved redux issue no longer needing pre-data. because of adding dependency to useEffect?
 */  
 
+
 /*  INSTALLED
+npm install -g firebase-tools  (test hosting)
 installed:  firebase 
 
 Good:   nuka-carousel
 https://reactjsexample.com/a-pure-reactjs-carousel-component/
 https://github.com/FormidableLabs/nuka-carousel
 so far so good
+
+icons from fontawesome
 
 redux
 react-redux

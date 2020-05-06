@@ -10,8 +10,8 @@ const ProductDetailPage = ({ match }) => {
 	const dispatch = useDispatch();
     useEffect(() => {
         dispatch(allActions.productActions.fetchProducts())
-        // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, []);
+    }, [dispatch]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
 
     useEffect(() => {
  	 window.scrollTo(0, 0)

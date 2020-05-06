@@ -14,8 +14,8 @@ const ProductList = ({ match }) => {
 
     useEffect(() => {
         dispatch(allActions.productActions.fetchProducts())
+    }, [dispatch])
         // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, [])
 
     const productItems = products.map(product => (
 		<div className='card' key={product.id}>
