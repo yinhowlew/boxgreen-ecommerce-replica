@@ -82,8 +82,6 @@ const Footer = () => {
 				</div>
 				<ul className="mobile-footer-link-list">
 					<li>our story</li>
-					<li>office snack</li>
-					<li>contact</li>
 					<li>faq</li>
 					<li>terms</li>
 					<li>privacy</li>
@@ -96,7 +94,7 @@ const Footer = () => {
 					<p>this is an application built solely for author's learning and programming practice purpose. strictly not for distribution or any commercial use.</p>
 					<p>copywriting, design, product direction etc are copied taken from boxgreen.co, with slight creative liberty taken by the author.</p>
 					<p>copyright and credits belongs to the good folks of boxgreen pte ltd (a healthy snack delivery startup based in singapore), while all imperfections and errors are mine alone.</p>
-					<p>© boxgreen pte ltd </p>
+					<p>© friend of boxgreen</p>
 				</div>
 			</div>								
 		</footer>
