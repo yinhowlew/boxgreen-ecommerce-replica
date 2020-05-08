@@ -1,15 +1,17 @@
 import { 
-	FETCH_PRODUCTS, FILTER_PRODUCTS_BY_ALL, SEARCH_PRODUCTS, SORT_PRODUCTS
+	FETCH_PRODUCTS_PENDING, FETCH_PRODUCTS_SUCCESS, FETCH_PRODUCTS_FAILED, FILTER_PRODUCTS_BY_ALL, SEARCH_PRODUCTS, SORT_PRODUCTS
 } from '../constants.js';
 
 const fetchProducts = () => (dispatch) => {
+	  dispatch({ type: FETCH_PRODUCTS_PENDING })
       fetch(process.env.PUBLIC_URL + "/db.json")
       .then(res => res.json())
       .then(data => dispatch({
-      	type: FETCH_PRODUCTS,
+      	type: FETCH_PRODUCTS_SUCCESS,
       	payload: data.products
       }))
-}
+      .catch(error => dispatch({ type: FETCH_PRODUCTS_FAILED, payload: error.message}))
+} 
 
 const sortProducts = (filteredProducts, price) => (dispatch) => {
 	const products = filteredProducts.slice();

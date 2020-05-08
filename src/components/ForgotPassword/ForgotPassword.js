@@ -2,18 +2,9 @@ import React from 'react';
 import { Link, Redirect } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 import allActions from "../../actions";
-import './login.css';
-// import * as firebase from 'firebase/app';
-// import "firebase/auth";
-// import "firebase/firestore";
-// import * as firebaseui from 'firebaseui';
+import './forgotpassword.css';
 
-
-
-//4:18  auth listener
-// 7:02  enter value and onchange for inpiu?
-
-const Login = () => {
+const ForgotPassword = () => {
 
  //    const userEmail = useSelector(state => state.userReducer.email);
 	// const userPassword = useSelector(state => state.userReducer.password);
@@ -26,11 +17,10 @@ const Login = () => {
 		return(<Redirect to="/shop" />) 
 	} 
 	
-
 	return (
 		<div className='login-page'>
-			<h3>Login</h3>
-			<p>Enjoy members-only promotions and deals!</p>	
+			<h3>Forgot Password</h3>
+			<p>Enter your email to receive a password reset link</p>	
 			<div className="form-container">
 			  <div className="form-group">
 			    {/*<label htmlFor="inputemail">Email address</label>*/}
@@ -39,16 +29,9 @@ const Login = () => {
 			    	className="form-control form-width" 
 			    	id="inputemail" aria-describedby="emailHelp" placeholder="Enter email" />
 			  </div>
-			  <div className="form-group">
-			    {/*<label htmlFor="inputpassword">Password</label>*/}
-			    <input 
-			    	// onChange={(e) => dispatch(allActions.userActions.onPasswordChange(e))}
-			    	type="password" className="form-control form-width" 
-			    	id="inputpassword" placeholder="Password" />
-			  </div>
 			  <button 
 			  	className="btn btn-primary btn-cart btn-login"
-			  	onClick={() => dispatch(allActions.userActions.userLoginSubmit())} type="submit">Login</button>
+			  	onClick={() => dispatch(allActions.userActions.resetPassword())} type="submit">Submit</button>
 
 		      {alert &&
 		      <div className="alert alert-warning alert-dismissible fade show" role="alert">
@@ -60,14 +43,13 @@ const Login = () => {
 			  </div>	
 			  }
 
-			  <Link to="/forgotpassword" className="small-link"> Forgot Password</Link>
 			  <Link to="/signup" className="small-link">I am a new user. Sign me up</Link>		
 			</div>
 		</div>
 	);
 }
 
-export default Login;
+export default ForgotPassword;
 
 
 

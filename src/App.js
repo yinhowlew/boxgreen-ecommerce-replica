@@ -23,6 +23,7 @@ const ProductDetailPage = lazy(() => import('./components/ProductDetailPage/Prod
 const ErrorPage = lazy(() => import('./components/ErrorPage/ErrorPage'));
 const Login = lazy(() => import('./components/Login/Login'));
 const Signup = lazy(() => import('./components/Signup/Signup'));
+const ForgotPassword = lazy(() => import('./components/ForgotPassword/ForgotPassword'));
 const Profile = lazy(() => import('./components/Profile/Profile'));
 
 const App = () => {
@@ -35,12 +36,22 @@ const App = () => {
     if (localStorage.getItem("cartItems")) {
       dispatch(allActions.cartActions.getLocalCart())
     }
-
     // moved the function to inside useEffect because ...
     const authListener = () => {
       firebase.auth().onAuthStateChanged((user) => {
         if (user) {
           dispatch(allActions.userActions.setUserAuth(user.displayName))
+
+          // if user is not verified (e.g. after signup), send email verification
+          if (!user.emailVerified) {
+            // for continue link in email verification
+            const actionCodeSettings = {
+              url: 'https://boxgreen.web.app'
+            }
+            user.sendEmailVerification(actionCodeSettings).then(function(){
+              console.log("email verification sent to user")
+            })
+          }
         } else {
           dispatch(allActions.userActions.setUserAuth(null))
         }
@@ -60,7 +71,8 @@ const App = () => {
             <Route path="/shop/products" component={ProductList} />  
             <Route path="/shop/product/:id" component={ProductDetailPage} /> 
             <Route path="/login" component={Login} /> 
-            <Route path="/signup" component={Signup} />  
+            <Route path="/signup" component={Signup} /> 
+            <Route path="/forgotpassword" component={ForgotPassword} />  
             <Route path="/profile" component={Profile} />              
             <Route component={ErrorPage} />
             {/*
@@ -208,6 +220,7 @@ also,  rendered mobile images based on window.innerWidth
 53)  remember to add config file to gitignore
 54)   app deployed on Firebase. solved routing issue!
 55)  magically solved redux issue no longer needing pre-data. because of adding dependency to useEffect?
+56)  added isLoading and error state to product fetching, and display loading message
 */  
 
 

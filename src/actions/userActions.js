@@ -12,34 +12,34 @@ const userSignupSubmit = () => (dispatch) => {
       const tos = document.getElementById('tos-privacy-checkbox').checked;
 
       if (email.length < 4) {
-		return dispatch({
-			type: ERROR_MESSAGE,
-			payload: "Please enter a valid email"
-		})	
+    		return dispatch({
+    			type: ERROR_MESSAGE,
+    			payload: "Please enter a valid email"
+    		})	
       }
       if (password.length < 4) {
-		return dispatch({
-			type: ERROR_MESSAGE,
-			payload: "Please enter a longer password"
-		})	
+    		return dispatch({
+    			type: ERROR_MESSAGE,
+    			payload: "Please enter a longer password"
+    		})	
       }
       if (name.length < 1) {
-		return dispatch({
-			type: ERROR_MESSAGE,
-			payload: "Please enter a valid name"
-		})	
+    		return dispatch({
+    			type: ERROR_MESSAGE,
+    			payload: "Please enter a valid name"
+    		})	
       }
       if (phone.length < 4) {
         return dispatch({
-			type: ERROR_MESSAGE,
-			payload: "Please enter a valid phone number"
-		})	
+    			type: ERROR_MESSAGE,
+    			payload: "Please enter a valid phone number"
+    		})	
       }    
       if (!tos) {
-		return dispatch({
-			type: ERROR_MESSAGE,
-			payload: "Please accept Terms and Privacy to proceed"
-		})	
+    		return dispatch({
+    			type: ERROR_MESSAGE,
+    			payload: "Please accept Terms and Privacy to proceed"
+    		})	
       }        
       // Create user with email and pass.
       // [START createwithemail]
@@ -61,20 +61,20 @@ const userSignupSubmit = () => (dispatch) => {
       .then(() => dispatch({
 			type: SET_USER_AUTH,
 			payload: name
-		})) 
+		  })) 
       .catch(function(error) {
         var errorCode = error.code;
         var errorMessage = error.message;
         if (errorCode === 'auth/weak-password') {
-			return dispatch({
-				type: ERROR_MESSAGE,
-				payload: "Please enter a stronger password"
-			})	
+    			return dispatch({
+    				type: ERROR_MESSAGE,
+    				payload: "Please enter a stronger password"
+    			})	
         } else {
         	return dispatch({
-				type: ERROR_MESSAGE,
-				payload: errorMessage
-			})	
+    				type: ERROR_MESSAGE,
+    				payload: errorMessage
+    			})	
         }
       })
        // PREVIOUSLY.
@@ -181,16 +181,16 @@ const updateProfile = () => (dispatch) => {
       const phone = document.getElementById('profilephone').value;
 
       if (name.length < 1) {
-		return dispatch({
-			type: ERROR_MESSAGE,
-			payload: "Please enter a valid name"
-		})	
+    		return dispatch({
+    			type: ERROR_MESSAGE,
+    			payload: "Please enter a valid name"
+    		})	
       }
       if (phone.length < 4) {
         return dispatch({
-			type: ERROR_MESSAGE,
-			payload: "Please enter a valid phone number"
-		})	
+    			type: ERROR_MESSAGE,
+    			payload: "Please enter a valid phone number"
+    		})	
       }         
       
       const user = firebase.auth().currentUser;
@@ -211,7 +211,7 @@ const updateProfile = () => (dispatch) => {
       .then(() => dispatch({
 			type: SET_USER_AUTH,
 			payload: name
-		})) 
+		  })) 
       .catch(function(error) {
         	return dispatch({
 				type: ERROR_MESSAGE,
@@ -228,7 +228,22 @@ const closeAlert = () => (dispatch) => {
 	})
 }
 
+const resetPassword = () => (dispatch) => {
+  const email = document.getElementById('inputemail').value;
+
+  firebase.auth().sendPasswordResetEmail(email).then(function() {
+    alert("please check your email for password reset link")
+  }).catch(function(error) {
+      return dispatch({
+      type: ERROR_MESSAGE,
+      payload: error
+    })      
+  });
+
+
+}
+
 
 export default {
-	userLoginSubmit, userSignupSubmit, setUserAuth, logOutUser, closeAlert, getProfile, updateProfile
+	userLoginSubmit, userSignupSubmit, setUserAuth, logOutUser, closeAlert, getProfile, updateProfile, resetPassword
 }

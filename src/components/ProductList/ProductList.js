@@ -8,6 +8,8 @@ import allActions from "../../actions";
 const ProductList = ({ match }) => {
 
 	const products = useSelector(state => state.productReducer.filteredProducts);
+    const isLoading = useSelector(state => state.productReducer.isLoading);
+    const fetchError = useSelector(state => state.productReducer.fetchError);    
     const cartItems = useSelector(state => state.cartReducer.cartItems);
     
 	const dispatch = useDispatch();
@@ -36,6 +38,12 @@ const ProductList = ({ match }) => {
     ))
 
 	return (
+        isLoading 
+        ? <div>Fetching products..</div> 
+        :
+        fetchError 
+        ? <div style={{color: "red"}}>Error: {fetchError}. <br /> Please try again.</div> 
+        :
 		<div className='productlist-container'> 
 			{productItems}
 		</div>		
