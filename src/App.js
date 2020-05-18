@@ -11,6 +11,7 @@ import NavBar from './components/NavBar/NavBar';
 // import ProductList from './components/ProductList/ProductList';
 // import ProductDetailPage from './components/ProductDetailPage/ProductDetailPage';
 import Footer from './components/Footer/Footer';
+import Loader from 'react-loader-spinner';
 // import ErrorPage from './components/ErrorPage/ErrorPage';
 import './App.css';
 
@@ -63,7 +64,13 @@ const App = () => {
   return (
     <div className='App'> 
       <NavBar />     
-       <Suspense fallback={<div>Loading...</div>}>    
+       <Suspense fallback={        
+         <Loader 
+            type="Oval"
+            color="#4cbc94"
+            height={30}
+            style={{margin: "auto"}}
+          />}>    
           <Switch>
             <Route path="/" component={LandingPage} exact />
             <Route path="/shop" component={Shop} exact />
@@ -108,7 +115,7 @@ LATER:
 css optimisation?
 generaal optimisation:  watch 116 to 121?
 productlist: onclick, button has "added" text and animation
-Testing 
+Testingg 
 
 PROBLEM:
 1)  refactor filter algorithm
@@ -222,6 +229,7 @@ also,  rendered mobile images based on window.innerWidth
 55)  magically solved redux issue no longer needing pre-data. because of adding dependency to useEffect?
 56)  added isLoading and error state to product fetching, and display loading message
 57)  added react-loader-spinner in productList and prodoctDetails (fixed details page showing error for split second when loading)
+58)  added loader to router suspense fallback in App
 */  
 
 
