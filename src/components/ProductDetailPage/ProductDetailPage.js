@@ -3,7 +3,8 @@ import './productdetailpage.css';
 import { Link } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 import allActions from "../../actions";
-import ErrorPage from "../ErrorPage/ErrorPage"
+import ErrorPage from "../ErrorPage/ErrorPage";
+import Loader from 'react-loader-spinner';
  
 const ProductDetailPage = ({ match }) => {
 	// get db and update product objects
@@ -24,6 +25,8 @@ const ProductDetailPage = ({ match }) => {
     // product is our product object of interest here	
 	const product = allProducts[productId - 1];
 	const cartItems = useSelector(state => state.cartReducer.cartItems);
+    const isLoading = useSelector(state => state.productReducer.isLoading);
+    const fetchError = useSelector(state => state.productReducer.fetchError);   
 
 	// local state used for setting className for thumbnail/small image
     const [activeThumbnail, setActiveThumbnail] = useState(1);
@@ -85,6 +88,18 @@ const ProductDetailPage = ({ match }) => {
     ))
 
 	return (
+		isLoading
+		?
+        <Loader 
+            type="Oval"
+            color="#4cbc94"
+            height={40}
+            style={{margin: "auto"}}
+        />
+		:
+        fetchError 
+        ? <div style={{color: "red"}}>Error: {fetchError}. <br /> Please try again.</div> 
+        :		
 		product === undefined
 		?
 		<ErrorPage />

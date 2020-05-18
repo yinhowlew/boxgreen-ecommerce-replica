@@ -221,10 +221,14 @@ also,  rendered mobile images based on window.innerWidth
 54)   app deployed on Firebase. solved routing issue!
 55)  magically solved redux issue no longer needing pre-data. because of adding dependency to useEffect?
 56)  added isLoading and error state to product fetching, and display loading message
+57)  added react-loader-spinner in productList and prodoctDetails (fixed details page showing error for split second when loading)
 */  
 
 
 /*  INSTALLED
+
+npm install react-loader-spinner --save
+
 npm install -g firebase-tools  (test hosting)
 installed:  firebase 
 

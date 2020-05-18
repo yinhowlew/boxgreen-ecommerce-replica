@@ -3,6 +3,7 @@ import './productlist.css';
 import { Link } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 import allActions from "../../actions";
+import Loader from 'react-loader-spinner';
 
 
 const ProductList = ({ match }) => {
@@ -39,13 +40,19 @@ const ProductList = ({ match }) => {
 
 	return (
         isLoading 
-        ? <div>Fetching products..</div> 
+        ? 
+        <Loader 
+            type="Oval"
+            color="#4cbc94"
+            height={40}
+            style={{margin: "auto"}}
+        />
         :
         fetchError 
         ? <div style={{color: "red"}}>Error: {fetchError}. <br /> Please try again.</div> 
         :
 		<div className='productlist-container'> 
-			{productItems}
+            {productItems}
 		</div>		
 	)
 }
